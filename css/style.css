@@ -45,6 +45,8 @@ img {
   left: 16px;
   color: white;
   font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 .login-form input,
