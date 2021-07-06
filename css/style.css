@@ -32,8 +32,19 @@ img {
 }
 
 #greeting {
-  font-size: 50px;
+  font-size: 45px;
   margin: 20px 0;
+}
+
+#changeBtn {
+  background-color: transparent;
+  border-style: none;
+  text-decoration: underline;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font-size: 15px;
 }
 
 .login-form input,

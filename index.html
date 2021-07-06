@@ -18,12 +18,13 @@
                 type="text" placeholder="Please write your name and enter 🤩"
             >
             <!-- <input type="submit" value="Log In"> -->
+            <!-- It doesn't look good with button to me, so I deleted it and wrote "pls enter" on placeholder -->
         </form>
 
         <h1 id="greeting" class="hidden"></h1>
-    
+        
         <form id="todo-form">
-            <input type="text" placeholder="What do you want to focus on today? 😎" required>
+            <input type="text" placeholder="What is your main focus for today? 😎" required>
         </form>
 
         <ul id="todo-list">
@@ -39,6 +40,8 @@
         <span></span>
         <span></span>
     </div>
+
+    <button id="changeBtn" class="hidden">Change Username</button>
 
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
